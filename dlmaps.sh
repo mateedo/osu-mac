@@ -10,3 +10,4 @@ for skin in *.osk; do
   mv "$skin" "${skin}.zip"
   mv "${skin}.zip" ../Documents/osu/Skins/
   unzip ../Documents/osu/Skins/"${skin}.zip" -d ../Documents/osu/Skins/"$skin"
+done
